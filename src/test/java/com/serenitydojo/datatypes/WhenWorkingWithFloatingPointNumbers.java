@@ -18,7 +18,7 @@ public class WhenWorkingWithFloatingPointNumbers {
 
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
 
-        System.out.println(farenheit);
+        //System.out.println(farenheit);
         assertThat(farenheit, equalTo(80.6));
     }
 
@@ -32,7 +32,7 @@ public class WhenWorkingWithFloatingPointNumbers {
         double weightInPounds = weightInKilograms * 2.20462;
 
         // TODO: Use a floating point calculation to calculate the correct weight in pounds
-        System.out.println(weightInPounds);
+      //  System.out.println(weightInPounds);
         assertThat(weightInPounds, equalTo(110.231));
 
     }
